@@ -43,7 +43,7 @@ const Menu = ({ onClose, alertType, description }: MenuProps) => {
           console.log(location.pathname);
           console.log("Navigate");
           
-            navigate("/home/alerts");
+            navigate("/home");
           onClose();
         });
     },
