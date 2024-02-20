@@ -1,4 +1,4 @@
 export const config = {
-  AUTHPATH: "http://localhost:8081/auth",
-  API: "http://localhost:8081",
+  AUTHPATH: "https://guardian-en-l-nea-backend-production.up.railway.app/auth",
+  API: "https://guardian-en-l-nea-backend-production.up.railway.app",
 };
