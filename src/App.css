@@ -17,11 +17,19 @@ body {
 
   text-align: center;
   color: var(--font-color);
+  cursor: pointer;
 }
 
 .button--ghost {
   background-color: var(--primary-color);
   color: var(--font-ghost);
+  margin-bottom: 20px;
+}
+
+.button--ghost:hover {
+  color: #00afb5;
+  border: 1px #00afb5 solid;
+  margin-top: 10px;
 }
 
 .button--logout {

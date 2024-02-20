@@ -41,9 +41,9 @@ const Menu = ({ onClose, alertType, description }: MenuProps) => {
         .finally(() => {
           dispatch(setSending({ isSending: false }));
           console.log(location.pathname);
-          if (location.pathname === "/home/alerts/types") {
+          console.log("Navigate");
+          
             navigate("/home/alerts");
-          }
           onClose();
         });
     },

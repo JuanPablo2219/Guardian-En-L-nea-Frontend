@@ -75,7 +75,7 @@ export function Login() {
     <>
       <form className="margin-layout form" onSubmit={loginForm.handleSubmit}>
         <h2>Login</h2>
-        <label htmlFor="Iemail">Correo electrónico: </label>
+        <label htmlFor="Iemail">Correo Electrónico: </label>
         <input
           id="Iemail"
           type="text"
@@ -83,6 +83,7 @@ export function Login() {
           value={loginForm.values.email}
           onChange={loginForm.handleChange}
           onFocus={loginForm.handleBlur}
+          placeholder="Ingrese su Correo Electronico"
         />
         <small className="error-message">
           {loginForm.touched.email && loginForm.errors.email}
@@ -95,6 +96,7 @@ export function Login() {
           value={loginForm.values.password}
           onFocus={loginForm.handleBlur}
           onChange={loginForm.handleChange}
+          placeholder="Ingrese su Contraseña"
         />
         <small className="error-message">
           {loginForm.touched.password && loginForm.errors.password}
@@ -106,7 +108,7 @@ export function Login() {
           className="button button--ghost"
           to={`/${routes.AUTH.name}/${routes.AUTH.SIGNUP}`}
         >
-          ¿No tienes cuenta?, regístrate aquí
+          ¿No tienes una cuenta?, regístrate aquí
         </Link>
       </form>
     </>

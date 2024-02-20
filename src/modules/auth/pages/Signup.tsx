@@ -170,11 +170,12 @@ export function Signup() {
         <button type="submit" className="button" disabled={disabled}>
           Registrarse
         </button>
+        <span style={{textAlign:'center'}}>¿Ya tienes una cuenta?,</span>
         <Link
           className="button button--ghost"
           to={`/${routes.AUTH.name}/${routes.AUTH.LOGIN}`}
         >
-          ¿Ya tienes cuenta?, inicia sesión aquí
+          Inicia sesión aquí
         </Link>
       </form>
     </>
