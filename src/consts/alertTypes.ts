@@ -16,4 +16,14 @@ export const alertTypes: AlertType[] = [
     url: "/alerts/heist.png",
     description: "Un robo",
   },
+  {
+    name: "Emergencia Medica",
+    url: "/alerts/medicina.svg",
+    description: "Emergencia de Salud",
+  },
+  {
+    name: "Problemas Estructurales",
+    url: "/alerts/problemas.svg",
+    description: "Problemas Familiares",
+  },
 ];

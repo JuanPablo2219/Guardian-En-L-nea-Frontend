@@ -29,8 +29,8 @@ const Menu = ({ onClose, alertType, description }: MenuProps) => {
       saveAlert({
         type: alertType,
         details: values.description ? values.description : description,
-        latitude: currentPosition?.coords.latitude as number,
-        longitude: currentPosition?.coords.longitude as number,
+        latitude: currentPosition?.coords.latitude as number || -2.8983553618689633,
+        longitude: currentPosition?.coords.longitude as number || -78.99772771360878,
       })
         .then((res) => {
           console.log("ALERT CREATED:", res);
