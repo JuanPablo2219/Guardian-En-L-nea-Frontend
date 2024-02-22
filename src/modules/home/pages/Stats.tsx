@@ -106,7 +106,7 @@ export default function Stats() {
 
   return (
     <div className="card">
-        <h1>Dashboard de Alertas</h1>
+        <h1> Estadísticas de Alertas</h1>
       <Chart className="Chart" type="bar" data={chartData} options={chartOptions} />
     </div>
   );
