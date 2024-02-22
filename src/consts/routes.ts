@@ -4,6 +4,7 @@ export const routes = {
     NOTIFICATIONS: "notifications",
     ALERTS: "alert",
     USER_DETAILS: "user-details",
+    STATS: "stats"
   },
   AUTH: {
     name: "auth",

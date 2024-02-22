@@ -7,6 +7,8 @@ import "./navigation.styles.css";
 import AlertIcon from "../../../assets/icons/AlertIcon";
 import NotificarionIcon from "../../../assets/icons/NotificarionIcon";
 import UserIcon from "../../../assets/icons/UserIcon";
+import 'primeicons/primeicons.css';
+        
 
 export function Navigation() {
   const user = useSelector((state: AppState) => state.user);
@@ -28,6 +30,9 @@ export function Navigation() {
         <div style={{ display: "flex", gap: 10 }} className="navigator">
           <Link to={routes.HOME.NOTIFICATIONS}>
             <NotificarionIcon />
+          </Link>
+          <Link to={routes.HOME.STATS}>
+            <strong className="pi pi-chart-bar"> <br />Estadísticas</strong>
           </Link>
           <Link to={routes.HOME.USER_DETAILS}>
             <UserIcon />

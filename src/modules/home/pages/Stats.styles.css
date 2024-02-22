@@ -1,0 +1,28 @@
+.card {
+    width: 100%; 
+  }
+  
+  .Chart {
+    display: grid;
+    place-content: center;
+    width: 70%; 
+  }
+  
+  @media screen and (min-width: 412px) and (max-width: 914px) {
+    .Chart {
+      width: 90%;
+      margin-top: 50%; 
+    }
+
+    h1 {
+        text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    .Chart {
+      width: 70%; 
+      margin-top: 50%; 
+    }
+  }
+  

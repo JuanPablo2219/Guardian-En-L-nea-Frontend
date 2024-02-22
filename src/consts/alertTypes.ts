@@ -1,5 +1,14 @@
 import { AlertType } from "../models/alertModel";
 
+export const alertNames = {
+  incendio: "Incendio",
+  acoso: "Acoso",
+  robo: "Robo",
+  emergenciaMedica: "Emergencia Medica",
+  problemasEstructurales: "Problemas Estructurales",
+  alertaGeneral: "Alerta General",
+};
+
 export const alertTypes: AlertType[] = [
   {
     name: "Incendio",

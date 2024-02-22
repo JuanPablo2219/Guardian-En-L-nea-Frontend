@@ -17,3 +17,7 @@
 .navigator > a {
   color: var(--secundary-color);
 }
+
+strong {
+  text-align: center;margin-top: 10px;
+}

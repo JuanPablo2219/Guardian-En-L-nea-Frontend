@@ -4,6 +4,7 @@ import { UserDetails } from "../modules/home/pages/UserDetails";
 import { routes } from "../consts/routes";
 import { ButtonEmergency } from "../modules/button-emergency/ButtonEmergency";
 import { ButtonEmergencyRouter } from "./ButtonEmergency.router";
+import Stats from "../modules/home/pages/Stats";
 
 export function HomeRouter() {
   return (
@@ -16,6 +17,7 @@ export function HomeRouter() {
       </Route>
       <Route path={routes.HOME.NOTIFICATIONS} element={<Notification />} />
       <Route path={routes.HOME.USER_DETAILS} element={<UserDetails />} />
+      <Route path={routes.HOME.STATS} element={<Stats />}/>
     </>
   );
 }
